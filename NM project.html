@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>E. Ishwariya — Profile</title>
+  <style>
+    :root{--bg:#f3effa;--card:#ffffff;--accent:#6b46ff;--muted:#6b6b7a}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:linear-gradient(180deg,var(--bg),#efe8ff);color:#111}
+    .wrap{max-width:900px;margin:40px auto;padding:40px;background:var(--card);border-radius:18px;box-shadow:0 8px 30px rgba(100,80,140,0.08)}
+    nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+    .logo{font-weight:700;color:#2b2540}
+    .navlinks a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:600}
+    .intro h1{font-size:48px;margin:0 0 8px}
+    .role{color:var(--muted);font-weight:600;margin-bottom:18px}
+    .desc{color:#666;line-height:1.6;margin-bottom:24px}
+    .cta{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:white;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700}
+    .socials{display:flex;flex-direction:column;gap:12px;margin-right:16px}
+    .socials a{width:36px;height:36px;border-radius:8px;background:#faf7ff;display:flex;align-items:center;justify-content:center;text-decoration:none;color:var(--accent);font-weight:700}
+    .details{margin-top:30px}
+    .details h3{margin:0 0 6px}
+    .edu{background:#fbf8ff;padding:16px;border-radius:12px}
+    .edu p{margin:8px 0;color:#444}
+    footer{margin-top:24px;color:var(--muted);font-size:14px}
+
+    @media (max-width:600px){
+      .intro h1{font-size:36px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav>
+      <div class="logo">E.Ishwariya</div>
+      <div class="navlinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="intro" id="home">
+      <div style="display:flex;align-items:flex-start;gap:14px">
+        <div class="socials" aria-hidden>
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Portfolio">•</a>
+          <a href="#" title="GitHub">GH</a>
+        </div>
+        <div>
+          <h1>Hi, I'm <span style="color:var(--accent)">E. Ishwariya</span></h1>
+          <div class="role">BCA Student / Frontend Enthusiast</div>
+          <p class="desc">High level experience with web design fundamentals and a strong interest in frontend development. Currently studying at Karan Arts and Science College, Thiruvannamalai.</p>
+          <a class="cta" href="#contact">Contact Me ➜</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="details" id="about">
+      <h3>Educational Details</h3>
+      <div class="edu">
+        <p><strong>Student Name:</strong> E. Ishwariya</p>
+        <p><strong>Course:</strong> 1st BCA &amp; 2nd BCA</p>
+        <p><strong>College:</strong> Karan Arts and Science College</p>
+        <p><strong>Location:</strong> Thiruvannamalai</p>
+      </div>
+
+      <footer>
+        <p>If you'd like, <a href="mailto:example@email.com">email me</a> or <a href="#contact">use the contact form</a>.</p>
+      </footer>
+    </section>
+
+    <!-- contact anchor -->
+    <div style="padding-top:18px" id="contact">
+      <h3>Contact</h3>
+      <p>Want to get in touch? <a href="mailto:example@email.com">Send an email</a> or message me on LinkedIn.</p>
+    </div>
+  </main>
+</body>
+</html>
